@@ -11,11 +11,11 @@ public class db_single {
 
     private String driver = "com.mysql.jdbc.Driver";
 
-    private static String url = "jdbc:mysql://118.178.129.156:3306/yjyx";
+    private static String url = "jdbc:mysql://1xxxxxxx";
 
-    final static String user = "dbadmin";
+    final static String user = "xxxxx";
 
-    final static String password = "yijiaoqaz";
+    final static String password = "xxxxx";
 
     public static Connection conn;   //设置连接状态为null
 
