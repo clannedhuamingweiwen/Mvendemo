@@ -40,7 +40,7 @@ public class poster {
     public static void sendget() {
         CloseableHttpClient httpclient = HttpClients.createDefault();
 
-        HttpGet httpget = new HttpGet("http://qa.zgyjyx.net/api/student/mobile/login/");
+        HttpGet httpget = new HttpGet("xxxxxxx/");
         CloseableHttpResponse httpresponse = null;
 
 
@@ -89,10 +89,10 @@ public class poster {
 
             post = new HttpPost(login);
             List<NameValuePair> nvps =new ArrayList<NameValuePair>();
-            nvps.add(new BasicNameValuePair("username","13803544685"));
-            nvps.add(new BasicNameValuePair("ostype","0"));
-            nvps.add(new BasicNameValuePair("password","888888"));
-            nvps.add(new BasicNameValuePair("devicetoken","'AqTq9b6AfWWxnJjICYPBa6G9dp4sJEU_TwCNNpXfE0zK'"));
+            nvps.add(new BasicNameValuePair("xxxxx"));
+            nvps.add(new BasicNameValuePair("oxxxx","0x"));
+            nvps.add(new BasicNameValuePair("?xcx","xxxxx"));
+            nvps.add(new BasicNameValuePair("x","'"));
             System.out.println("结果集是"+nvps);
             UrlEncodedFormEntity factory =new UrlEncodedFormEntity(nvps);
             post.setEntity(factory);
